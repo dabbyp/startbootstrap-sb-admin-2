@@ -9620,6 +9620,46 @@ a.text-dark:hover, a.text-dark:focus {
   color: inherit !important;
 }
 
+.circle-color-1 {
+  color: #4e13df;
+}
+
+.circle-color-2 {
+  color: #1cc18a;
+}
+
+.circle-color-3 {
+  color: #46191c;
+}
+
+.circle-color-4 {
+  color: #4e73df;
+}
+
+.circle-color-5 {
+  color: #1cc88a;
+}
+
+.circle-color-6 {
+  color: #36b9cc;
+}
+
+.circle-color-7 {
+  color: #9e73df;
+}
+
+.circle-color-8 {
+  color: #9cc88a;
+}
+
+.circle-color-9 {
+  color: #96b9cc;
+}
+
+.circle-color-10 {
+  color: #9cc88a;
+}
+
 .visible {
   visibility: visible !important;
 }

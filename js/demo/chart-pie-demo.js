@@ -7,11 +7,11 @@ var ctx = document.getElementById("myPieChart");
 var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["Direct", "Referral", "Social"],
+    labels: ["서울", "경기", "대전", "대구", "부산", "광주", "충남", "충북", "강원", "전남"],
     datasets: [{
-      data: [55, 30, 15],
-      backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
-      hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
+      data: [10,5,15,10,5,1,10,5,19,10],
+      backgroundColor: ['#4e13df', '#1cc18a', '#46191c', '#4e73df', '#1cc88a', '#36b9cc', '#9e73df', '#9cc88a', '#96b9cc', '#9cc88a'],
+      hoverBackgroundColor: ['#5e23ef', '#2cd19a', '#66393c', '#5e83ef', '#2cd89a', '#46c9dc', '#ae83ef', '#acd89a', '#a6c9dc', '#acd89a'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
     }],
   },
@@ -30,6 +30,6 @@ var myPieChart = new Chart(ctx, {
     legend: {
       display: false
     },
-    cutoutPercentage: 80,
+    cutoutPercentage: 70,
   },
 });
